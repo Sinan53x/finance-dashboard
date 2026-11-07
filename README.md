@@ -1,5 +1,3 @@
-<img src="assets/icon.svg" width="64" height="64" alt="">
-
 # Finance Dashboard
 
 A self-hosted personal finance dashboard for a Swiss bank account (ZKB) plus an
