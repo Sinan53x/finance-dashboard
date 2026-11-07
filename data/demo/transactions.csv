@@ -1,0 +1,388 @@
+date,valuta,account,payee,text,amount,category
+2025-11-01,2025-11-01,privat,Muster Immobilien AG,"Miete November 2025",-1350.00,Miete
+2025-11-02,2025-11-02,notgroschen,Alex Muster,"Gutschrift Startkapital",2500.00,Übertrag
+2025-11-04,2025-11-04,privat,Krankenkasse Beispiel AG,"Prämie November 2025",-340.00,Krankenkasse
+2025-11-04,2025-11-04,privat,ZKB Bancomat,"Bancomatbezug",-200.00,Bargeld
+2025-11-06,2025-11-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2025-11-11,2025-11-11,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-45.50,Essen/Alltag
+2025-11-11,2025-11-11,privat,ZKB Bancomat,"Bancomatbezug",-200.00,Bargeld
+2025-11-12,2025-11-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2025-11-14,2025-11-14,privat,Coop,"Einkauf ZKB Visa Debit",-49.61,Essen/Alltag
+2025-11-15,2025-11-15,privat,Café Merkur,"Konsumation ZKB Visa Debit",-48.31,Ausgehen
+2025-11-15,2025-11-15,privat,C&A,"Einkauf ZKB Visa Debit",-33.87,Kleidung
+2025-11-18,2025-11-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2025-11-19,2025-11-19,privat,Denner,"Einkauf ZKB Visa Debit",-59.65,Essen/Alltag
+2025-11-21,2025-11-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2025-11-23,2025-11-23,privat,Denner,"Einkauf ZKB Visa Debit",-37.31,Essen/Alltag
+2025-11-24,2025-11-24,privat,Migros,"Einkauf ZKB Visa Debit",-33.98,Essen/Alltag
+2025-11-25,2025-11-25,privat,Muster AG,"Gutschrift Salär November 2025",5816.40,Lohn
+2025-11-26,2025-11-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2025-11-26,2025-11-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2025-11-26,2025-11-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2025-11-26,2025-11-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2025-11-26,2025-11-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2025-11-26,2025-11-26,privat,SBB,"Billett SBB Mobile",-7.66,ÖV/Mobilität
+2025-11-30,2025-11-30,privat,SBB,"Billett SBB Mobile",-54.55,ÖV/Mobilität
+2025-12-01,2025-12-01,privat,Muster Immobilien AG,"Miete Dezember 2025",-1350.00,Miete
+2025-12-01,2025-12-01,privat,Migros,"Einkauf ZKB Visa Debit",-51.20,Essen/Alltag
+2025-12-03,2025-12-03,privat,Denner,"Einkauf ZKB Visa Debit",-33.86,Essen/Alltag
+2025-12-04,2025-12-04,privat,Krankenkasse Beispiel AG,"Prämie Dezember 2025",-340.00,Krankenkasse
+2025-12-06,2025-12-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2025-12-09,2025-12-09,privat,Orell Füssli,"Online-Bestellung",-25.33,Freizeit/Shopping
+2025-12-10,2025-12-10,privat,Migros,"Einkauf ZKB Visa Debit",-22.88,Essen/Alltag
+2025-12-11,2025-12-11,privat,Café Merkur,"Konsumation ZKB Visa Debit",-24.40,Ausgehen
+2025-12-12,2025-12-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2025-12-13,2025-12-13,privat,Migros,"Einkauf ZKB Visa Debit",-46.48,Essen/Alltag
+2025-12-13,2025-12-13,privat,Café Merkur,"Konsumation ZKB Visa Debit",-28.02,Ausgehen
+2025-12-14,2025-12-14,privat,Bar Orion,"Konsumation ZKB Visa Debit",-36.91,Ausgehen
+2025-12-14,2025-12-14,privat,Unbekannt GmbH,"Belastung eBanking",-49.90,Unkategorisiert
+2025-12-15,2025-12-15,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2025-12-18,2025-12-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2025-12-21,2025-12-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2025-12-21,2025-12-21,privat,Lidl,"Einkauf ZKB Visa Debit",-10.49,Essen/Alltag
+2025-12-22,2025-12-22,privat,Coop,"Einkauf ZKB Visa Debit",-37.84,Essen/Alltag
+2025-12-25,2025-12-25,privat,Muster AG,"Gutschrift Salär Dezember 2025",5816.40,Lohn
+2025-12-26,2025-12-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2025-12-26,2025-12-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2025-12-26,2025-12-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2025-12-26,2025-12-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2025-12-26,2025-12-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2025-12-26,2025-12-26,privat,Denner,"Einkauf ZKB Visa Debit",-19.26,Essen/Alltag
+2025-12-28,2025-12-28,privat,ZKB Bancomat,"Bancomatbezug",-200.00,Bargeld
+2025-12-31,2025-12-31,privat,ZKB Bancomat,"Bancomatbezug",-200.00,Bargeld
+2025-12-31,2025-12-31,notgroschen,Zürcher Kantonalbank,"Guthabenzins 2025",12.40,Zinsen
+2025-12-31,2025-12-31,steuern,Zürcher Kantonalbank,"Guthabenzins 2025",2.15,Zinsen
+2026-01-01,2026-01-01,privat,Muster Immobilien AG,"Miete Januar 2026",-1350.00,Miete
+2026-01-01,2026-01-01,privat,Amazon,"Online-Bestellung",-122.80,Freizeit/Shopping
+2026-01-04,2026-01-04,privat,Krankenkasse Beispiel AG,"Prämie Januar 2026",-340.00,Krankenkasse
+2026-01-05,2026-01-05,privat,Lidl,"Einkauf ZKB Visa Debit",-15.67,Essen/Alltag
+2026-01-06,2026-01-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-01-06,2026-01-06,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-21.75,Essen/Alltag
+2026-01-07,2026-01-07,privat,Bar Orion,"Konsumation ZKB Visa Debit",-40.21,Ausgehen
+2026-01-08,2026-01-08,privat,SBB,"Billett SBB Mobile",-16.19,ÖV/Mobilität
+2026-01-09,2026-01-09,privat,Migros,"Einkauf ZKB Visa Debit",-61.70,Essen/Alltag
+2026-01-10,2026-01-10,privat,Migros,"Einkauf ZKB Visa Debit",-41.45,Essen/Alltag
+2026-01-10,2026-01-10,privat,Fitnessstudio Aktiv,"Jahresabo Fitness",-540.00,Gym
+2026-01-11,2026-01-11,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-44.29,Essen/Alltag
+2026-01-12,2026-01-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-01-15,2026-01-15,privat,SBB,"Halbtax-Abo Verlängerung",-185.00,ÖV/Mobilität
+2026-01-16,2026-01-16,privat,Migros,"Einkauf ZKB Visa Debit",-62.17,Essen/Alltag
+2026-01-16,2026-01-16,privat,SBB,"Billett SBB Mobile",-9.96,ÖV/Mobilität
+2026-01-18,2026-01-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-01-19,2026-01-19,privat,Migros,"Einkauf ZKB Visa Debit",-58.18,Essen/Alltag
+2026-01-20,2026-01-20,privat,SBB,"Billett SBB Mobile",-32.98,ÖV/Mobilität
+2026-01-21,2026-01-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-01-21,2026-01-21,privat,SBB,"Billett SBB Mobile",-22.45,ÖV/Mobilität
+2026-01-22,2026-01-22,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-25.26,Essen/Alltag
+2026-01-23,2026-01-23,privat,Coop,"Einkauf ZKB Visa Debit",-14.49,Essen/Alltag
+2026-01-25,2026-01-25,privat,Muster AG,"Gutschrift Salär Januar 2026",5816.40,Lohn
+2026-01-25,2026-01-25,privat,Migros,"Einkauf ZKB Visa Debit",-45.54,Essen/Alltag
+2026-01-25,2026-01-25,privat,Café Merkur,"Konsumation ZKB Visa Debit",-47.78,Ausgehen
+2026-01-26,2026-01-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-01-26,2026-01-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-01-26,2026-01-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-01-26,2026-01-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-01-26,2026-01-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-01-26,2026-01-26,privat,Migros,"Einkauf ZKB Visa Debit",-32.86,Essen/Alltag
+2026-01-27,2026-01-27,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-01-29,2026-01-29,privat,Denner,"Einkauf ZKB Visa Debit",-28.07,Essen/Alltag
+2026-01-29,2026-01-29,privat,Amazon,"Online-Bestellung",-52.14,Freizeit/Shopping
+2026-01-31,2026-01-31,privat,Lidl,"Einkauf ZKB Visa Debit",-51.50,Essen/Alltag
+2026-02-01,2026-02-01,privat,Muster Immobilien AG,"Miete Februar 2026",-1350.00,Miete
+2026-02-01,2026-02-01,privat,Serafe AG,"Billag/Serafe Jahresrechnung",-335.00,Jahreskosten/Diverses
+2026-02-04,2026-02-04,privat,Krankenkasse Beispiel AG,"Prämie Februar 2026",-340.00,Krankenkasse
+2026-02-04,2026-02-04,privat,Lidl,"Einkauf ZKB Visa Debit",-21.42,Essen/Alltag
+2026-02-04,2026-02-04,privat,H&M,"Einkauf ZKB Visa Debit",-61.48,Kleidung
+2026-02-04,2026-02-04,privat,ZKB Bancomat,"Bancomatbezug",-200.00,Bargeld
+2026-02-06,2026-02-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-02-06,2026-02-06,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-02-08,2026-02-08,privat,Migros,"Einkauf ZKB Visa Debit",-63.30,Essen/Alltag
+2026-02-10,2026-02-10,privat,Bar Orion,"Konsumation ZKB Visa Debit",-79.88,Ausgehen
+2026-02-11,2026-02-11,privat,SBB,"Spesen: SBB Geschäftsreise",-68.40,Spesen
+2026-02-12,2026-02-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-02-12,2026-02-12,privat,C&A,"Einkauf ZKB Visa Debit",-83.39,Kleidung
+2026-02-14,2026-02-14,privat,Migros,"Einkauf ZKB Visa Debit",-57.05,Essen/Alltag
+2026-02-14,2026-02-14,privat,Laura Muster,"Geschenk",-80.00,Familie
+2026-02-15,2026-02-15,privat,Zara,"Einkauf ZKB Visa Debit",-43.54,Kleidung
+2026-02-18,2026-02-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-02-19,2026-02-19,privat,SBB,"Billett SBB Mobile",-14.87,ÖV/Mobilität
+2026-02-20,2026-02-20,privat,Coop,"Einkauf ZKB Visa Debit",-43.73,Essen/Alltag
+2026-02-20,2026-02-20,privat,Muster AG,"Spesenrückerstattung",68.40,Spesen
+2026-02-20,2026-02-20,privat,Quartierverein Musterdorf,"Mitgliederbeitrag",-30.00,Unkategorisiert
+2026-02-21,2026-02-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-02-22,2026-02-22,privat,Lidl,"Einkauf ZKB Visa Debit",-52.23,Essen/Alltag
+2026-02-23,2026-02-23,privat,SBB,"Billett SBB Mobile",-17.79,ÖV/Mobilität
+2026-02-25,2026-02-25,privat,Muster AG,"Gutschrift Salär Februar 2026",5816.40,Lohn
+2026-02-26,2026-02-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-02-26,2026-02-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-02-26,2026-02-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-02-26,2026-02-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-02-26,2026-02-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-02-27,2026-02-27,privat,SBB,"Billett SBB Mobile",-49.37,ÖV/Mobilität
+2026-02-28,2026-02-28,privat,Orell Füssli,"Online-Bestellung",-121.21,Freizeit/Shopping
+2026-03-01,2026-03-01,privat,Muster Immobilien AG,"Miete März 2026",-1350.00,Miete
+2026-03-04,2026-03-04,privat,Krankenkasse Beispiel AG,"Prämie März 2026",-340.00,Krankenkasse
+2026-03-04,2026-03-04,privat,Optiker Klar,"Einkauf ZKB Visa Debit",-42.76,Gesundheit/Franchise
+2026-03-05,2026-03-05,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-41.15,Essen/Alltag
+2026-03-05,2026-03-05,privat,Restaurant Adler,"Konsumation ZKB Visa Debit",-61.30,Ausgehen
+2026-03-06,2026-03-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-03-06,2026-03-06,privat,ZKB Bancomat,"Bancomatbezug",-100.00,Bargeld
+2026-03-08,2026-03-08,privat,Coop,"Einkauf ZKB Visa Debit",-43.73,Essen/Alltag
+2026-03-10,2026-03-10,privat,SBB,"Billett SBB Mobile",-10.81,ÖV/Mobilität
+2026-03-11,2026-03-11,privat,Amazon,"Online-Bestellung",-149.29,Freizeit/Shopping
+2026-03-12,2026-03-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-03-12,2026-03-12,privat,Zahnarztpraxis Dr. Beispiel,"Zahnreinigung",-640.00,Gesundheit/Franchise
+2026-03-13,2026-03-13,privat,Restaurant Adler,"Konsumation ZKB Visa Debit",-71.42,Ausgehen
+2026-03-14,2026-03-14,privat,Lidl,"Einkauf ZKB Visa Debit",-38.61,Essen/Alltag
+2026-03-14,2026-03-14,privat,Amazon,"Online-Bestellung",-54.62,Freizeit/Shopping
+2026-03-15,2026-03-15,privat,Lidl,"Einkauf ZKB Visa Debit",-16.39,Essen/Alltag
+2026-03-16,2026-03-16,privat,Denner,"Einkauf ZKB Visa Debit",-43.77,Essen/Alltag
+2026-03-17,2026-03-17,privat,Restaurant Adler,"Konsumation ZKB Visa Debit",-81.33,Ausgehen
+2026-03-18,2026-03-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-03-18,2026-03-18,privat,Migros,"Einkauf ZKB Visa Debit",-53.86,Essen/Alltag
+2026-03-19,2026-03-19,privat,Interdiscount,"Online-Bestellung",-93.46,Freizeit/Shopping
+2026-03-20,2026-03-20,privat,Migros,"Einkauf ZKB Visa Debit",-35.12,Essen/Alltag
+2026-03-21,2026-03-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-03-21,2026-03-21,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-56.05,Essen/Alltag
+2026-03-21,2026-03-21,privat,ZKB Bancomat,"Bancomatbezug",-200.00,Bargeld
+2026-03-22,2026-03-22,privat,Coop,"Einkauf ZKB Visa Debit",-52.91,Essen/Alltag
+2026-03-24,2026-03-24,privat,SBB,"Billett SBB Mobile",-14.11,ÖV/Mobilität
+2026-03-25,2026-03-25,privat,Muster AG,"Gutschrift Salär März 2026",5816.40,Lohn
+2026-03-26,2026-03-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-03-26,2026-03-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-03-26,2026-03-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-03-26,2026-03-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-03-26,2026-03-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-03-26,2026-03-26,privat,Lidl,"Einkauf ZKB Visa Debit",-19.53,Essen/Alltag
+2026-03-26,2026-03-26,privat,Zalando,"Online-Bestellung",-129.74,Freizeit/Shopping
+2026-03-27,2026-03-27,privat,Lidl,"Einkauf ZKB Visa Debit",-65.89,Essen/Alltag
+2026-03-27,2026-03-27,privat,easyJet,"Flug ZRH-LIS",-310.00,Reisen
+2026-03-29,2026-03-29,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-19.07,Essen/Alltag
+2026-04-01,2026-04-01,privat,Muster Immobilien AG,"Miete April 2026",-1350.00,Miete
+2026-04-02,2026-04-02,privat,Lidl,"Einkauf ZKB Visa Debit",-67.37,Essen/Alltag
+2026-04-02,2026-04-02,privat,Interdiscount,"Online-Bestellung",-120.13,Freizeit/Shopping
+2026-04-03,2026-04-03,privat,Bar Orion,"Konsumation ZKB Visa Debit",-24.94,Ausgehen
+2026-04-04,2026-04-04,privat,Krankenkasse Beispiel AG,"Prämie April 2026",-340.00,Krankenkasse
+2026-04-04,2026-04-04,privat,Coop,"Einkauf ZKB Visa Debit",-47.88,Essen/Alltag
+2026-04-06,2026-04-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-04-06,2026-04-06,privat,Denner,"Einkauf ZKB Visa Debit",-52.27,Essen/Alltag
+2026-04-06,2026-04-06,privat,Bar Orion,"Konsumation ZKB Visa Debit",-50.73,Ausgehen
+2026-04-08,2026-04-08,privat,Denner,"Einkauf ZKB Visa Debit",-40.38,Essen/Alltag
+2026-04-10,2026-04-10,privat,Denner,"Einkauf ZKB Visa Debit",-50.60,Essen/Alltag
+2026-04-11,2026-04-11,privat,Lidl,"Einkauf ZKB Visa Debit",-38.03,Essen/Alltag
+2026-04-12,2026-04-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-04-13,2026-04-13,privat,Migros,"Einkauf ZKB Visa Debit",-13.75,Essen/Alltag
+2026-04-14,2026-04-14,privat,ZKB Bancomat,"Bancomatbezug",-200.00,Bargeld
+2026-04-16,2026-04-16,privat,Café Merkur,"Konsumation ZKB Visa Debit",-48.87,Ausgehen
+2026-04-18,2026-04-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-04-18,2026-04-18,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-04-18,2026-04-18,privat,Mobility Carsharing,"Wochenendfahrt",-96.40,ÖV/Mobilität
+2026-04-19,2026-04-19,privat,ZKB Bancomat,"Bancomatbezug",-100.00,Bargeld
+2026-04-20,2026-04-20,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-6.01,Essen/Alltag
+2026-04-21,2026-04-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-04-21,2026-04-21,privat,Coop,"Einkauf ZKB Visa Debit",-16.01,Essen/Alltag
+2026-04-24,2026-04-24,privat,Coop,"Einkauf ZKB Visa Debit",-31.69,Essen/Alltag
+2026-04-25,2026-04-25,privat,Muster AG,"Gutschrift Salär April 2026",5816.40,Lohn
+2026-04-25,2026-04-25,privat,Lidl,"Einkauf ZKB Visa Debit",-16.85,Essen/Alltag
+2026-04-25,2026-04-25,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-04-26,2026-04-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-04-26,2026-04-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-04-26,2026-04-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-04-26,2026-04-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-04-26,2026-04-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-04-26,2026-04-26,privat,Interdiscount,"Online-Bestellung",-132.56,Freizeit/Shopping
+2026-04-27,2026-04-27,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-27.48,Essen/Alltag
+2026-04-30,2026-04-30,privat,Coop,"Einkauf ZKB Visa Debit",-6.45,Essen/Alltag
+2026-04-30,2026-04-30,privat,Unbekannt GmbH,"Belastung eBanking",-22.50,Unkategorisiert
+2026-05-01,2026-05-01,privat,Muster Immobilien AG,"Miete Mai 2026",-1350.00,Miete
+2026-05-01,2026-05-01,privat,Coop,"Einkauf ZKB Visa Debit",-45.44,Essen/Alltag
+2026-05-01,2026-05-01,privat,Bar Orion,"Konsumation ZKB Visa Debit",-53.52,Ausgehen
+2026-05-01,2026-05-01,privat,SBB,"Billett SBB Mobile",-14.48,ÖV/Mobilität
+2026-05-02,2026-05-02,privat,Lidl,"Einkauf ZKB Visa Debit",-54.56,Essen/Alltag
+2026-05-03,2026-05-03,privat,Optiker Klar,"Einkauf ZKB Visa Debit",-15.71,Gesundheit/Franchise
+2026-05-04,2026-05-04,privat,Krankenkasse Beispiel AG,"Prämie Mai 2026",-340.00,Krankenkasse
+2026-05-04,2026-05-04,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-37.66,Essen/Alltag
+2026-05-04,2026-05-04,privat,SBB,"Billett SBB Mobile",-12.30,ÖV/Mobilität
+2026-05-04,2026-05-04,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-05-06,2026-05-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-05-06,2026-05-06,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-52.85,Essen/Alltag
+2026-05-08,2026-05-08,privat,Krankenkasse Beispiel AG,"Rückerstattung Prämie",95.20,Rückerstattungen
+2026-05-12,2026-05-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-05-12,2026-05-12,privat,Kino Apollo,"Konsumation ZKB Visa Debit",-37.08,Ausgehen
+2026-05-15,2026-05-15,privat,Coop,"Einkauf ZKB Visa Debit",-39.01,Essen/Alltag
+2026-05-15,2026-05-15,privat,C&A,"Einkauf ZKB Visa Debit",-113.89,Kleidung
+2026-05-18,2026-05-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-05-21,2026-05-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-05-21,2026-05-21,privat,Pizzeria Sole,"Konsumation ZKB Visa Debit",-25.81,Ausgehen
+2026-05-22,2026-05-22,privat,Lidl,"Einkauf ZKB Visa Debit",-63.97,Essen/Alltag
+2026-05-22,2026-05-22,privat,Boulderhalle Steinbock,"10er-Abo",-290.00,Gym
+2026-05-23,2026-05-23,privat,Coop,"Einkauf ZKB Visa Debit",-46.33,Essen/Alltag
+2026-05-25,2026-05-25,privat,Muster AG,"Gutschrift Salär Mai 2026",5816.40,Lohn
+2026-05-26,2026-05-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-05-26,2026-05-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-05-26,2026-05-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-05-26,2026-05-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-05-26,2026-05-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-05-29,2026-05-29,privat,Amazon,"Online-Bestellung",-62.60,Freizeit/Shopping
+2026-06-01,2026-06-01,privat,Muster Immobilien AG,"Miete Juni 2026",-1350.00,Miete
+2026-06-01,2026-06-01,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-38.16,Essen/Alltag
+2026-06-03,2026-06-03,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-54.73,Essen/Alltag
+2026-06-04,2026-06-04,privat,Krankenkasse Beispiel AG,"Prämie Juni 2026",-340.00,Krankenkasse
+2026-06-06,2026-06-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-06-07,2026-06-07,privat,Coop,"Einkauf ZKB Visa Debit",-20.84,Essen/Alltag
+2026-06-08,2026-06-08,privat,Amazon,"Online-Bestellung",-146.94,Freizeit/Shopping
+2026-06-09,2026-06-09,privat,Denner,"Einkauf ZKB Visa Debit",-25.79,Essen/Alltag
+2026-06-09,2026-06-09,privat,Kino Apollo,"Konsumation ZKB Visa Debit",-64.68,Ausgehen
+2026-06-12,2026-06-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-06-12,2026-06-12,privat,Lidl,"Einkauf ZKB Visa Debit",-56.13,Essen/Alltag
+2026-06-12,2026-06-12,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-06-14,2026-06-14,privat,Migros,"Einkauf ZKB Visa Debit",-45.76,Essen/Alltag
+2026-06-16,2026-06-16,privat,SBB,"Spesen: SBB Geschäftsreise",-112.75,Spesen
+2026-06-18,2026-06-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-06-18,2026-06-18,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-06-19,2026-06-19,privat,Optiker Klar,"Einkauf ZKB Visa Debit",-31.80,Gesundheit/Franchise
+2026-06-19,2026-06-19,privat,Verein Alpenblick,"Jahresbeitrag",-60.00,Unkategorisiert
+2026-06-21,2026-06-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-06-24,2026-06-24,privat,Coop,"Einkauf ZKB Visa Debit",-8.56,Essen/Alltag
+2026-06-24,2026-06-24,privat,Orell Füssli,"Online-Bestellung",-32.97,Freizeit/Shopping
+2026-06-25,2026-06-25,privat,Muster AG,"Gutschrift Salär Juni 2026",5816.40,Lohn
+2026-06-25,2026-06-25,privat,Denner,"Einkauf ZKB Visa Debit",-35.05,Essen/Alltag
+2026-06-25,2026-06-25,privat,Muster AG,"Spesenrückerstattung",112.75,Spesen
+2026-06-26,2026-06-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-06-26,2026-06-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-06-26,2026-06-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-06-26,2026-06-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-06-26,2026-06-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-06-28,2026-06-28,privat,Coop,"Einkauf ZKB Visa Debit",-47.49,Essen/Alltag
+2026-06-30,2026-06-30,privat,Laura Muster,"Anteil Ferien",150.00,Familie
+2026-07-01,2026-07-01,privat,Muster Immobilien AG,"Miete Juli 2026",-1350.00,Miete
+2026-07-04,2026-07-04,privat,Krankenkasse Beispiel AG,"Prämie Juli 2026",-340.00,Krankenkasse
+2026-07-04,2026-07-04,privat,Migros,"Einkauf ZKB Visa Debit",-58.14,Essen/Alltag
+2026-07-05,2026-07-05,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-12.28,Essen/Alltag
+2026-07-05,2026-07-05,privat,Hotel Alpenblick,"Hotel Sommerferien",-780.00,Reisen
+2026-07-06,2026-07-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-07-07,2026-07-07,privat,Lidl,"Einkauf ZKB Visa Debit",-29.01,Essen/Alltag
+2026-07-07,2026-07-07,privat,Interdiscount,"Online-Bestellung",-154.22,Freizeit/Shopping
+2026-07-07,2026-07-07,privat,Airbnb,"Unterkunft Lissabon",-240.00,Reisen
+2026-07-08,2026-07-08,privat,Pizzeria Sole,"Konsumation ZKB Visa Debit",-18.23,Ausgehen
+2026-07-08,2026-07-08,privat,Apotheke Vita,"Einkauf ZKB Visa Debit",-39.57,Gesundheit/Franchise
+2026-07-09,2026-07-09,privat,Lidl,"Einkauf ZKB Visa Debit",-67.40,Essen/Alltag
+2026-07-11,2026-07-11,privat,SBB,"Billett SBB Mobile",-26.86,ÖV/Mobilität
+2026-07-12,2026-07-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-07-12,2026-07-12,privat,Decathlon,"Online-Bestellung",-135.54,Freizeit/Shopping
+2026-07-13,2026-07-13,privat,Amazon,"Online-Bestellung",-47.19,Freizeit/Shopping
+2026-07-14,2026-07-14,privat,Lidl,"Einkauf ZKB Visa Debit",-51.93,Essen/Alltag
+2026-07-16,2026-07-16,privat,Lidl,"Einkauf ZKB Visa Debit",-49.57,Essen/Alltag
+2026-07-18,2026-07-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-07-21,2026-07-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-07-21,2026-07-21,privat,Coop,"Einkauf ZKB Visa Debit",-9.48,Essen/Alltag
+2026-07-22,2026-07-22,privat,ZKB Bancomat,"Bancomatbezug",-100.00,Bargeld
+2026-07-23,2026-07-23,privat,Denner,"Einkauf ZKB Visa Debit",-67.89,Essen/Alltag
+2026-07-24,2026-07-24,privat,Zara,"Einkauf ZKB Visa Debit",-35.88,Kleidung
+2026-07-25,2026-07-25,privat,Muster AG,"Gutschrift Salär Juli 2026",5816.40,Lohn
+2026-07-26,2026-07-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-07-26,2026-07-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-07-26,2026-07-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-07-26,2026-07-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-07-26,2026-07-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-07-27,2026-07-27,privat,Zalando,"Online-Bestellung",-23.81,Freizeit/Shopping
+2026-07-31,2026-07-31,privat,Lidl,"Einkauf ZKB Visa Debit",-24.57,Essen/Alltag
+2026-07-31,2026-07-31,privat,Apotheke Vita,"Einkauf ZKB Visa Debit",-37.88,Gesundheit/Franchise
+2026-08-01,2026-08-01,privat,Muster Immobilien AG,"Miete August 2026",-1350.00,Miete
+2026-08-01,2026-08-01,privat,Denner,"Einkauf ZKB Visa Debit",-39.89,Essen/Alltag
+2026-08-03,2026-08-03,privat,Lidl,"Einkauf ZKB Visa Debit",-29.57,Essen/Alltag
+2026-08-03,2026-08-03,privat,Restaurant Adler,"Konsumation ZKB Visa Debit",-78.06,Ausgehen
+2026-08-04,2026-08-04,privat,Krankenkasse Beispiel AG,"Prämie August 2026",-340.00,Krankenkasse
+2026-08-06,2026-08-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-08-06,2026-08-06,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-23.68,Essen/Alltag
+2026-08-12,2026-08-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-08-12,2026-08-12,privat,SBB,"Billett SBB Mobile",-25.88,ÖV/Mobilität
+2026-08-13,2026-08-13,privat,Lidl,"Einkauf ZKB Visa Debit",-39.27,Essen/Alltag
+2026-08-14,2026-08-14,privat,Galaxus,"Rückerstattung Retoure",38.00,Rückerstattungen
+2026-08-18,2026-08-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-08-19,2026-08-19,privat,Migros,"Einkauf ZKB Visa Debit",-7.84,Essen/Alltag
+2026-08-20,2026-08-20,privat,Migros,"Einkauf ZKB Visa Debit",-30.08,Essen/Alltag
+2026-08-21,2026-08-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-08-21,2026-08-21,privat,Coop,"Einkauf ZKB Visa Debit",-8.00,Essen/Alltag
+2026-08-22,2026-08-22,privat,ZKB Bancomat,"Bancomatbezug",-100.00,Bargeld
+2026-08-25,2026-08-25,privat,Muster AG,"Gutschrift Salär August 2026",5816.40,Lohn
+2026-08-26,2026-08-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-08-26,2026-08-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-08-26,2026-08-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-08-26,2026-08-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-08-26,2026-08-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-08-27,2026-08-27,privat,Migros,"Einkauf ZKB Visa Debit",-45.34,Essen/Alltag
+2026-08-27,2026-08-27,privat,Kiosk Zentrum,"Einkauf ZKB Visa Debit",-6.20,Unkategorisiert
+2026-08-29,2026-08-29,privat,H&M,"Einkauf ZKB Visa Debit",-114.66,Kleidung
+2026-08-31,2026-08-31,privat,Kino Apollo,"Konsumation ZKB Visa Debit",-59.92,Ausgehen
+2026-08-31,2026-08-31,privat,ZKB Bancomat,"Bancomatbezug",-100.00,Bargeld
+2026-09-01,2026-09-01,privat,Muster Immobilien AG,"Miete September 2026",-1350.00,Miete
+2026-09-01,2026-09-01,privat,Lidl,"Einkauf ZKB Visa Debit",-28.63,Essen/Alltag
+2026-09-04,2026-09-04,privat,Krankenkasse Beispiel AG,"Prämie September 2026",-340.00,Krankenkasse
+2026-09-05,2026-09-05,privat,Pizzeria Sole,"Konsumation ZKB Visa Debit",-43.54,Ausgehen
+2026-09-06,2026-09-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-09-06,2026-09-06,privat,SBB,"Billett SBB Mobile",-32.32,ÖV/Mobilität
+2026-09-09,2026-09-09,privat,Coop,"Einkauf ZKB Visa Debit",-26.72,Essen/Alltag
+2026-09-11,2026-09-11,privat,Lidl,"Einkauf ZKB Visa Debit",-53.03,Essen/Alltag
+2026-09-12,2026-09-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-09-13,2026-09-13,privat,Denner,"Einkauf ZKB Visa Debit",-16.46,Essen/Alltag
+2026-09-14,2026-09-14,privat,Interdiscount,"Online-Bestellung",-106.98,Freizeit/Shopping
+2026-09-15,2026-09-15,privat,Denner,"Einkauf ZKB Visa Debit",-59.95,Essen/Alltag
+2026-09-15,2026-09-15,privat,SBB,"Billett SBB Mobile",-51.15,ÖV/Mobilität
+2026-09-15,2026-09-15,privat,ZKB Bancomat,"Bancomatbezug",-150.00,Bargeld
+2026-09-17,2026-09-17,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-13.61,Essen/Alltag
+2026-09-17,2026-09-17,privat,Apotheke Vita,"Einkauf ZKB Visa Debit",-36.31,Gesundheit/Franchise
+2026-09-18,2026-09-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-09-18,2026-09-18,privat,Denner,"Einkauf ZKB Visa Debit",-63.00,Essen/Alltag
+2026-09-20,2026-09-20,steuern,Steueramt Kanton Zürich,"Steuerrechnung 2025",-2100.00,Steuern
+2026-09-21,2026-09-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-09-21,2026-09-21,privat,Migros,"Einkauf ZKB Visa Debit",-43.36,Essen/Alltag
+2026-09-21,2026-09-21,privat,Kino Apollo,"Konsumation ZKB Visa Debit",-62.45,Ausgehen
+2026-09-22,2026-09-22,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-53.45,Essen/Alltag
+2026-09-23,2026-09-23,privat,SBB,"Billett SBB Mobile",-55.69,ÖV/Mobilität
+2026-09-24,2026-09-24,privat,Lidl,"Einkauf ZKB Visa Debit",-44.00,Essen/Alltag
+2026-09-24,2026-09-24,privat,Booking.com,"Städtetrip Oktober",-160.00,Reisen
+2026-09-25,2026-09-25,privat,Muster AG,"Gutschrift Salär September 2026",5816.40,Lohn
+2026-09-25,2026-09-25,privat,Lidl,"Einkauf ZKB Visa Debit",-62.19,Essen/Alltag
+2026-09-26,2026-09-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-09-26,2026-09-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-09-26,2026-09-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-09-26,2026-09-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-09-26,2026-09-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-09-27,2026-09-27,privat,Coop,"Einkauf ZKB Visa Debit",-44.78,Essen/Alltag
+2026-09-28,2026-09-28,privat,Denner,"Einkauf ZKB Visa Debit",-27.24,Essen/Alltag
+2026-09-30,2026-09-30,privat,SBB,"Billett SBB Mobile",-14.65,ÖV/Mobilität
+2026-10-01,2026-10-01,privat,Muster Immobilien AG,"Miete Oktober 2026",-1350.00,Miete
+2026-10-01,2026-10-01,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-11.22,Essen/Alltag
+2026-10-02,2026-10-02,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-30.26,Essen/Alltag
+2026-10-03,2026-10-03,privat,Kino Apollo,"Konsumation ZKB Visa Debit",-31.96,Ausgehen
+2026-10-03,2026-10-03,privat,Muster Versicherung AG,"Hausratversicherung jährlich",-214.60,Jahreskosten/Diverses
+2026-10-04,2026-10-04,privat,Krankenkasse Beispiel AG,"Prämie Oktober 2026",-340.00,Krankenkasse
+2026-10-06,2026-10-06,privat,Swisscom,"Internet & Mobile Abo",-59.90,Internet/Handy
+2026-10-06,2026-10-06,privat,SBB,"Billett SBB Mobile",-48.57,ÖV/Mobilität
+2026-10-08,2026-10-08,privat,Migros,"Einkauf ZKB Visa Debit",-20.59,Essen/Alltag
+2026-10-08,2026-10-08,privat,Café Merkur,"Konsumation ZKB Visa Debit",-37.49,Ausgehen
+2026-10-11,2026-10-11,privat,Denner,"Einkauf ZKB Visa Debit",-49.38,Essen/Alltag
+2026-10-12,2026-10-12,privat,Spotify,"Spotify Premium",-12.95,Technik/Abos
+2026-10-13,2026-10-13,privat,SBB,"Spesen: SBB Geschäftsreise",-54.20,Spesen
+2026-10-15,2026-10-15,privat,Interdiscount,"Online-Bestellung",-20.87,Freizeit/Shopping
+2026-10-17,2026-10-17,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-17.59,Essen/Alltag
+2026-10-18,2026-10-18,privat,Netflix,"Netflix Standard",-24.90,Technik/Abos
+2026-10-21,2026-10-21,privat,iCloud,"iCloud+ 200 GB",-2.95,Technik/Abos
+2026-10-21,2026-10-21,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-32.43,Essen/Alltag
+2026-10-21,2026-10-21,privat,SBB,"Billett SBB Mobile",-30.19,ÖV/Mobilität
+2026-10-22,2026-10-22,privat,Muster AG,"Spesenrückerstattung",54.20,Spesen
+2026-10-24,2026-10-24,privat,Aldi Suisse,"Einkauf ZKB Visa Debit",-38.08,Essen/Alltag
+2026-10-25,2026-10-25,privat,Muster AG,"Gutschrift Salär Oktober 2026",5816.40,Lohn
+2026-10-26,2026-10-26,privat,Alex Muster,"Übertrag aufs Sparkonto Notgroschen",-800.00,Notgroschen
+2026-10-26,2026-10-26,notgroschen,Alex Muster,"Übertrag vom Privatkonto",800.00,Übertrag
+2026-10-26,2026-10-26,privat,Alex Muster,"Übertrag aufs Sparkonto Steuertopf",-450.00,Steuern
+2026-10-26,2026-10-26,steuern,Alex Muster,"Übertrag vom Privatkonto",450.00,Übertrag
+2026-10-26,2026-10-26,privat,Interactive Brokers,"Dauerauftrag ETF-Sparplan",-1000.00,ETF IBKR
+2026-10-28,2026-10-28,privat,SBB,"Billett SBB Mobile",-8.78,ÖV/Mobilität
+2026-10-29,2026-10-29,privat,Coop,"Einkauf ZKB Visa Debit",-57.11,Essen/Alltag
+2026-10-29,2026-10-29,privat,Unbekannt GmbH,"Belastung eBanking",-35.75,Unkategorisiert
+2026-10-31,2026-10-31,privat,Coop,"Einkauf ZKB Visa Debit",-9.52,Essen/Alltag
+2026-10-31,2026-10-31,privat,Optiker Klar,"Einkauf ZKB Visa Debit",-9.02,Gesundheit/Franchise
+2026-11-03,2026-11-03,privat,Denner,"Einkauf ZKB Visa Debit",-22.49,Essen/Alltag
+2026-11-04,2026-11-04,privat,Lidl,"Einkauf ZKB Visa Debit",-15.43,Essen/Alltag

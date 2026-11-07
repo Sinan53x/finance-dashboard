@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic camt.053.001.04 statement with a namespace prefix: fake names and IBANs. -->
+<ns2:Document xmlns:ns2="urn:iso:std:iso:20022:tech:xsd:camt.053.001.04">
+  <ns2:BkToCstmrStmt>
+    <ns2:GrpHdr><ns2:MsgId>TEST-MSG-0004</ns2:MsgId><ns2:CreDtTm>2030-04-30T23:59:00</ns2:CreDtTm></ns2:GrpHdr>
+    <ns2:Stmt>
+      <ns2:Id>TEST-STMT-0004</ns2:Id>
+      <ns2:Acct><ns2:Id><ns2:IBAN>CH0000700000000000001</ns2:IBAN></ns2:Id></ns2:Acct>
+      <ns2:Ntry>
+        <ns2:Amt Ccy="CHF">1000.00</ns2:Amt>
+        <ns2:CdtDbtInd>DBIT</ns2:CdtDbtInd>
+        <ns2:Sts>BOOK</ns2:Sts>
+        <ns2:BookgDt><ns2:DtTm>2030-04-02T10:15:00</ns2:DtTm></ns2:BookgDt>
+        <ns2:ValDt><ns2:Dt>2030-04-02</ns2:Dt></ns2:ValDt>
+        <ns2:NtryDtls>
+          <ns2:TxDtls>
+            <ns2:RltdPties>
+              <ns2:Cdtr><ns2:Nm>Muster &amp; Partner GmbH</ns2:Nm></ns2:Cdtr>
+              <ns2:CdtrAcct><ns2:Id><ns2:IBAN>CH0000700000000000031</ns2:IBAN></ns2:Id></ns2:CdtrAcct>
+            </ns2:RltdPties>
+          </ns2:TxDtls>
+        </ns2:NtryDtls>
+        <ns2:AddtlNtryInf>Belastung Mobile Banking: Muster &amp; Partner GmbH Auftrags-Nr. Z300000000123</ns2:AddtlNtryInf>
+      </ns2:Ntry>
+      <ns2:Ntry>
+        <ns2:Amt Ccy="CHF">12.00</ns2:Amt>
+        <ns2:CdtDbtInd>DBIT</ns2:CdtDbtInd>
+        <ns2:Sts>PDNG</ns2:Sts>
+        <ns2:BookgDt><ns2:Dt>2030-04-03</ns2:Dt></ns2:BookgDt>
+        <ns2:AddtlNtryInf>Pending entry, must be skipped</ns2:AddtlNtryInf>
+      </ns2:Ntry>
+    </ns2:Stmt>
+  </ns2:BkToCstmrStmt>
+</ns2:Document>

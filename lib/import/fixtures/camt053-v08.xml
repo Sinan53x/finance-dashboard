@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic camt.053.001.08 statement: fake names and IBANs. -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BkToCstmrStmt>
+    <GrpHdr>
+      <MsgId>TEST-MSG-0001</MsgId>
+      <CreDtTm>2030-03-31T23:59:00</CreDtTm>
+    </GrpHdr>
+    <Stmt>
+      <Id>TEST-STMT-0001</Id>
+      <CreDtTm>2030-03-31T23:59:00</CreDtTm>
+      <FrToDt>
+        <FrDtTm>2030-03-01T00:00:00</FrDtTm>
+        <ToDtTm>2030-03-31T23:59:59</ToDtTm>
+      </FrToDt>
+      <Acct>
+        <Id><IBAN>CH0000700000000000001</IBAN></Id>
+        <Ccy>CHF</Ccy>
+      </Acct>
+      <Bal>
+        <Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp>
+        <Amt Ccy="CHF">1000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt><Dt>2030-03-01</Dt></Dt>
+      </Bal>
+
+      <!-- Card purchase without related parties -->
+      <Ntry>
+        <NtryRef>E1</NtryRef>
+        <Amt Ccy="CHF">23.45</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2030-03-12</Dt></BookgDt>
+        <ValDt><Dt>2030-03-10</Dt></ValDt>
+        <AcctSvcrRef>L115B111TEST0001-1</AcctSvcrRef>
+        <BkTxCd><Domn><Cd>PMNT</Cd><Fmly><Cd>CCRD</Cd><SubFmlyCd>POSD</SubFmlyCd></Fmly></Domn></BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><AcctSvcrRef>L115B111TEST0001-1</AcctSvcrRef></Refs>
+            <Amt Ccy="CHF">23.45</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+          </TxDtls>
+        </NtryDtls>
+        <AddtlNtryInf>Einkauf ZKB Visa Debit Card Nr. xxxx 1234,   Coop-9999 Musterdorf 0815</AddtlNtryInf>
+      </Ntry>
+
+      <!-- Batch: one entry with three transactions -->
+      <Ntry>
+        <NtryRef>E2</NtryRef>
+        <Amt Ccy="CHF">560.75</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2030-03-15</Dt></BookgDt>
+        <ValDt><Dt>2030-03-15</Dt></ValDt>
+        <AcctSvcrRef>Z300000000002</AcctSvcrRef>
+        <NtryDtls>
+          <Btch><NbOfTxs>3</NbOfTxs></Btch>
+          <TxDtls>
+            <Amt Ccy="CHF">342.10</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <AmtDtls><TxAmt><Amt Ccy="CHF">342.10</Amt></TxAmt></AmtDtls>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Visana Services AG</Nm></Pty></Cdtr>
+              <CdtrAcct><Id><IBAN>CH0000700000000000011</IBAN></Id></CdtrAcct>
+            </RltdPties>
+            <RmtInf><Ustrd>Prämie März 2030</Ustrd></RmtInf>
+          </TxDtls>
+          <TxDtls>
+            <Amt Ccy="CHF">98.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <AmtDtls><TxAmt><Amt Ccy="CHF">98.00</Amt></TxAmt></AmtDtls>
+            <RltdPties>
+              <Cdtr><Pty><Nm>SBB AG, Hilfikerstrasse 1, 3000 Bern, CH</Nm></Pty></Cdtr>
+              <CdtrAcct><Id><IBAN>CH0000700000000000012</IBAN></Id></CdtrAcct>
+            </RltdPties>
+            <AddtlTxInf>Halbtax Verlängerung Auftrags-Nr. Z300000000099</AddtlTxInf>
+          </TxDtls>
+          <TxDtls>
+            <Amt Ccy="CHF">120.65</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Max Muster</Nm></Pty></Cdtr>
+              <CdtrAcct><Id><IBAN>CH00 0070 0000 0000 0001 3</IBAN></Id></CdtrAcct>
+            </RltdPties>
+            <RmtInf><Ustrd>Anteil</Ustrd><Ustrd>Ferienwohnung</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+        <AddtlNtryInf>Belastungen Mobile Banking (3)</AddtlNtryInf>
+      </Ntry>
+
+      <!-- Salary credit -->
+      <Ntry>
+        <NtryRef>E3</NtryRef>
+        <Amt Ccy="CHF">4820.35</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2030-03-25</Dt></BookgDt>
+        <ValDt><Dt>2030-03-25</Dt></ValDt>
+        <NtryDtls>
+          <TxDtls>
+            <Amt Ccy="CHF">4820.35</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Muster AG</Nm></Pty></Dbtr>
+              <DbtrAcct><Id><IBAN>CH0000700000000000021</IBAN></Id></DbtrAcct>
+            </RltdPties>
+            <RmtInf><Ustrd>Salär März 2030</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+        <AddtlNtryInf>Gutschrift Salär März 2030</AddtlNtryInf>
+      </Ntry>
+
+      <!-- Own-account transfer, identifiable only by the counterparty IBAN -->
+      <Ntry>
+        <NtryRef>E4</NtryRef>
+        <Amt Ccy="CHF">500.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2030-03-26</Dt></BookgDt>
+        <ValDt><Dt>2030-03-26</Dt></ValDt>
+        <NtryDtls>
+          <TxDtls>
+            <Amt Ccy="CHF">500.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Erika Beispiel</Nm></Pty></Cdtr>
+              <CdtrAcct><Id><IBAN>CH0000700000000000002</IBAN></Id></CdtrAcct>
+            </RltdPties>
+          </TxDtls>
+        </NtryDtls>
+        <AddtlNtryInf>Kontoübertrag Sparkonto</AddtlNtryInf>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

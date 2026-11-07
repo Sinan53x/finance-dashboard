@@ -1,0 +1,211 @@
+[
+  {
+    "category": "Notgroschen",
+    "iban": "CH00 0070 0000 0000 0000 2"
+  },
+  {
+    "category": "Steuern",
+    "iban": "CH00 0070 0000 0000 0000 3"
+  },
+  {
+    "category": "Zinsen",
+    "accounts": [
+      "privat",
+      "notgroschen",
+      "steuern"
+    ],
+    "patterns": [
+      "Guthabenzins"
+    ]
+  },
+  {
+    "category": "Übertrag",
+    "accounts": [
+      "notgroschen",
+      "steuern"
+    ],
+    "patterns": [
+      "Alex Muster"
+    ]
+  },
+  {
+    "category": "Steuern",
+    "accounts": [
+      "steuern"
+    ],
+    "patterns": [
+      "Steueramt"
+    ]
+  },
+  {
+    "category": "Familie",
+    "patterns": [
+      "Laura Muster"
+    ]
+  },
+  {
+    "category": "Spesen",
+    "patterns": [
+      "Spesen"
+    ]
+  },
+  {
+    "category": "Rückerstattungen",
+    "sign": "credit",
+    "patterns": [
+      "Rückerstattung",
+      "Rückzahlung",
+      "Erstattung"
+    ]
+  },
+  {
+    "category": "Lohn",
+    "sign": "credit",
+    "patterns": [
+      "Salär",
+      "Muster AG"
+    ]
+  },
+  {
+    "category": "Notgroschen",
+    "accounts": [
+      "privat"
+    ],
+    "patterns": [
+      "Notgroschen"
+    ]
+  },
+  {
+    "category": "Steuern",
+    "accounts": [
+      "privat"
+    ],
+    "patterns": [
+      "Steuertopf"
+    ]
+  },
+  {
+    "category": "ETF IBKR",
+    "patterns": [
+      "Interactive Brokers",
+      "IBKR"
+    ]
+  },
+  {
+    "category": "Miete",
+    "patterns": [
+      "Muster Immobilien"
+    ]
+  },
+  {
+    "category": "Krankenkasse",
+    "patterns": [
+      "Krankenkasse Beispiel",
+      "Visana"
+    ]
+  },
+  {
+    "category": "Internet/Handy",
+    "patterns": [
+      "Swisscom"
+    ]
+  },
+  {
+    "category": "Technik/Abos",
+    "patterns": [
+      "Spotify",
+      "Netflix",
+      "iCloud",
+      "Galaxus",
+      "Digitec"
+    ]
+  },
+  {
+    "category": "ÖV/Mobilität",
+    "patterns": [
+      "SBB",
+      "ZVV",
+      "Halbtax",
+      "P+Rail",
+      "Mobility Carsharing"
+    ]
+  },
+  {
+    "category": "Essen/Alltag",
+    "patterns": [
+      "Migros",
+      "Coop",
+      "Denner",
+      "Aldi",
+      "Lidl"
+    ]
+  },
+  {
+    "category": "Ausgehen",
+    "patterns": [
+      "Restaurant",
+      "Café",
+      "Pizzeria",
+      "Bar Orion",
+      "Kino"
+    ]
+  },
+  {
+    "category": "Freizeit/Shopping",
+    "patterns": [
+      "Amazon",
+      "Orell Füssli",
+      "Zalando",
+      "Decathlon",
+      "Interdiscount"
+    ]
+  },
+  {
+    "category": "Kleidung",
+    "patterns": [
+      "H&M",
+      "Zara",
+      "C&A",
+      "Dosenbach"
+    ]
+  },
+  {
+    "category": "Bargeld",
+    "patterns": [
+      "Bancomatbezug"
+    ]
+  },
+  {
+    "category": "Gym",
+    "patterns": [
+      "Fitnessstudio",
+      "Boulderhalle"
+    ]
+  },
+  {
+    "category": "Gesundheit/Franchise",
+    "patterns": [
+      "Apotheke",
+      "Zahnarzt",
+      "Optiker"
+    ]
+  },
+  {
+    "category": "Reisen",
+    "patterns": [
+      "Booking",
+      "Airbnb",
+      "easyJet",
+      "Hotel",
+      "SWISS"
+    ]
+  },
+  {
+    "category": "Jahreskosten/Diverses",
+    "patterns": [
+      "Serafe",
+      "Die Post",
+      "Muster Versicherung"
+    ]
+  }
+]

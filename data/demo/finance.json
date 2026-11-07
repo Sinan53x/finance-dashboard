@@ -1,0 +1,412 @@
+{
+  "asOf": "2026-11-06",
+  "sources": {
+    "zkbStatement": "Demo-Daten (erfundene Buchungen, scripts/generate-demo.ts)",
+    "zkbAssets": "Demo-Vermögensauszug",
+    "ibkr": "Demo Flex-Snapshot (erfundene Daten, Konto U00000000)",
+    "plan": "Demo-Investitionsplan",
+    "payslip": "Demo-Lohnabrechnung"
+  },
+  "privatkontoOpeningBalance": 3200,
+  "balancesAsOf": "2026-11-06",
+  "budgetStart": "2026-01-01",
+  "annualPayments": [
+    {
+      "category": "Gym",
+      "payee": "Fitnessstudio Aktiv",
+      "date": "2026-01-10",
+      "amount": 540,
+      "coversMonths": 12,
+      "note": "Jahresabo Fitnessstudio"
+    },
+    {
+      "category": "Jahreskosten/Diverses",
+      "payee": "Serafe AG",
+      "date": "2026-02-01",
+      "amount": 335,
+      "coversMonths": 12,
+      "note": "Serafe Jahresrechnung"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "privat",
+      "name": "Privatkonto",
+      "institution": "ZKB",
+      "iban": "CH00 0070 0000 0000 0000 1",
+      "type": "cash",
+      "balance": 9109.28
+    },
+    {
+      "id": "notgroschen",
+      "name": "Sparkonto Notgroschen",
+      "institution": "ZKB",
+      "iban": "CH00 0070 0000 0000 0000 2",
+      "type": "savings",
+      "balance": 12112.4
+    },
+    {
+      "id": "steuern",
+      "name": "Sparkonto Steuern",
+      "institution": "ZKB",
+      "iban": "CH00 0070 0000 0000 0000 3",
+      "type": "savings",
+      "balance": 3302.15
+    },
+    {
+      "id": "ibkr",
+      "name": "Interactive Brokers",
+      "institution": "IBKR",
+      "type": "brokerage",
+      "balance": 13240.55
+    }
+  ],
+  "ibkr": {
+    "accountId": "U00000000",
+    "baseCurrency": "CHF",
+    "netLiquidationChf": 13240.55,
+    "cashChf": 118.6,
+    "unrealizedPnlChf": 1121.95,
+    "realizedPnlChf": 0,
+    "dividendsChf": 199.57,
+    "deposits": [
+      {
+        "date": "2025-11-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2025-12-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-01-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-02-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-03-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-04-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-05-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-06-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-07-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-08-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-09-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-10-28",
+        "amountChf": 1000
+      }
+    ],
+    "positions": [
+      {
+        "symbol": "VT",
+        "name": "Vanguard Total World Stock ETF",
+        "isin": "US9220427424",
+        "ter": 0.07,
+        "marketValueUsd": 16401,
+        "marketValueChf": 13121.95
+      }
+    ],
+    "valueHistory": [
+      {
+        "date": "2025-11-25",
+        "valueChf": 0
+      },
+      {
+        "date": "2025-12-25",
+        "valueChf": 1126.49
+      },
+      {
+        "date": "2026-01-24",
+        "valueChf": 2150.13
+      },
+      {
+        "date": "2026-02-23",
+        "valueChf": 3201.64
+      },
+      {
+        "date": "2026-03-25",
+        "valueChf": 4241.52
+      },
+      {
+        "date": "2026-04-24",
+        "valueChf": 5272.41
+      },
+      {
+        "date": "2026-05-24",
+        "valueChf": 6344.97
+      },
+      {
+        "date": "2026-06-23",
+        "valueChf": 7372.24
+      },
+      {
+        "date": "2026-07-23",
+        "valueChf": 8549.61
+      },
+      {
+        "date": "2026-08-22",
+        "valueChf": 9716.08
+      },
+      {
+        "date": "2026-09-21",
+        "valueChf": 11048.89
+      },
+      {
+        "date": "2026-10-21",
+        "valueChf": 12216.1
+      },
+      {
+        "date": "2026-11-06",
+        "valueChf": 13240.55
+      }
+    ],
+    "valueHistoryNote": "NAV-Stichproben aus dem Demo-Flex-Snapshot"
+  },
+  "income": {
+    "employer": "Muster AG",
+    "payday": 25,
+    "grossMonthly": 6800,
+    "deductions": [
+      {
+        "label": "AHV/IV/EO",
+        "rate": 0.053,
+        "amount": 360.4
+      },
+      {
+        "label": "ALV",
+        "rate": 0.011,
+        "amount": 74.8
+      },
+      {
+        "label": "Pensionskasse",
+        "rate": 0.07,
+        "amount": 476
+      },
+      {
+        "label": "NBU",
+        "rate": 0.008,
+        "amount": 54.4
+      },
+      {
+        "label": "KTG",
+        "rate": null,
+        "amount": 18
+      }
+    ],
+    "netMonthly": 5816.4,
+    "expensesAllowance": 0,
+    "payout": 5816.4,
+    "budgetBase": 5400
+  },
+  "budget": {
+    "groups": [
+      {
+        "id": "fix",
+        "label": "Fixkosten",
+        "categories": [
+          {
+            "name": "Miete",
+            "monthly": 1350,
+            "note": "Muster Immobilien AG"
+          },
+          {
+            "name": "Krankenkasse",
+            "monthly": 340,
+            "note": "Krankenkasse Beispiel AG"
+          },
+          {
+            "name": "Internet/Handy",
+            "monthly": 60,
+            "note": "Swisscom"
+          }
+        ]
+      },
+      {
+        "id": "topf",
+        "label": "Töpfe (Sinking Funds)",
+        "categories": [
+          {
+            "name": "Steuern",
+            "monthly": 450,
+            "yearlyTarget": 5400,
+            "fundedBy": "steuern",
+            "note": "Steuerrechnung ca. CHF 5'400/Jahr"
+          },
+          {
+            "name": "Gesundheit/Franchise",
+            "monthly": 60,
+            "yearlyTarget": 720
+          },
+          {
+            "name": "ÖV/Mobilität",
+            "monthly": 110,
+            "yearlyTarget": 1320
+          },
+          {
+            "name": "Kleidung",
+            "monthly": 50,
+            "yearlyTarget": 600
+          },
+          {
+            "name": "Technik/Abos",
+            "monthly": 80,
+            "yearlyTarget": 960
+          },
+          {
+            "name": "Reisen",
+            "monthly": 180,
+            "yearlyTarget": 2160
+          },
+          {
+            "name": "Jahreskosten/Diverses",
+            "monthly": 60,
+            "yearlyTarget": 720
+          },
+          {
+            "name": "Gym",
+            "monthly": 60,
+            "yearlyTarget": 720,
+            "note": "Jahresabo, anteilig"
+          }
+        ]
+      },
+      {
+        "id": "variabel",
+        "label": "Variabel",
+        "categories": [
+          {
+            "name": "Essen/Alltag",
+            "monthly": 350
+          },
+          {
+            "name": "Freizeit/Shopping",
+            "monthly": 220
+          },
+          {
+            "name": "Ausgehen",
+            "monthly": 150
+          },
+          {
+            "name": "Bargeld",
+            "monthly": 100
+          },
+          {
+            "name": "Puffer",
+            "monthly": 50
+          }
+        ]
+      },
+      {
+        "id": "sparen",
+        "label": "Sparen & Investieren",
+        "categories": [
+          {
+            "name": "Notgroschen",
+            "monthly": 800,
+            "fundedBy": "notgroschen"
+          },
+          {
+            "name": "ETF IBKR",
+            "monthly": 1000,
+            "fundedBy": "ibkr"
+          }
+        ]
+      }
+    ],
+    "nonBudget": {
+      "income": [
+        "Lohn",
+        "Rückerstattungen",
+        "Zinsen"
+      ],
+      "passThrough": [
+        "Spesen"
+      ],
+      "passThroughNote": "Spesen werden von der Muster AG erstattet."
+    },
+    "livingTotal": 3600,
+    "savingsTotal": 1800,
+    "targetSavingsRate": 0.3
+  },
+  "goals": [
+    {
+      "id": "notgroschen",
+      "label": "Notgroschen",
+      "target": 15000,
+      "current": 12112.4,
+      "monthly": 800,
+      "targetDate": "2027-04-30"
+    },
+    {
+      "id": "steuern",
+      "label": "Steuertopf",
+      "target": 5400,
+      "current": 3302.15,
+      "monthly": 450,
+      "targetDate": "2027-06-30"
+    }
+  ],
+  "plan": {
+    "phases": [
+      {
+        "id": "p1",
+        "label": "Phase 1",
+        "from": "2026-01",
+        "to": "2027-01",
+        "summary": "Notgroschen auf CHF 15'000 aufbauen, ETF-Sparplan CHF 1'000/Mt."
+      },
+      {
+        "id": "p2",
+        "label": "Phase 2",
+        "from": "2027-01",
+        "to": null,
+        "summary": "Notgroschen voll — Sparplan auf CHF 1'800/Mt erhöhen, Säule 3a starten."
+      }
+    ],
+    "pillar3a": {
+      "provider": "VIAC",
+      "strategy": "Global 100 (100 % Aktien)",
+      "start": "2027",
+      "yearlyMax2026": 7258,
+      "monthlyPlaceholder": 580,
+      "note": "Einzahlung erst ab Phase 2, sobald der Notgroschen voll ist."
+    },
+    "etf": {
+      "symbol": "VT",
+      "isin": "US9220427424",
+      "broker": "Interactive Brokers",
+      "strategy": "100 % VT, monatlicher Sparplan, nicht timen",
+      "monthlyPhase1": 1000,
+      "monthlyPhase2": 1800
+    },
+    "freeMargin": 416.4
+  },
+  "todos": [
+    "Säule-3a-Konto bei VIAC eröffnen (ab Phase 2)",
+    "Steuererklärung 2026 bis März einreichen",
+    "Halbtax prüfen — lohnt sich ein GA?"
+  ]
+}

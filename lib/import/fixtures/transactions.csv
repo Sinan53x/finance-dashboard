@@ -1,0 +1,4 @@
+date,valuta,account,payee,text,amount,category
+2029-12-05,2029-12-05,notgroschen,"Laura Muster, Musterweg 5","Gutschrift Auftraggeber: Laura Muster",200.00,Familie
+2030-01-01,2030-01-01,privat,"Muster, ""Max""","TWINT von MUSTER, MAX ""Danke"", merci",12.50,Freizeit/Shopping
+2030-01-03,2030-01-03,steuern,ZKB,"Kontoübertrag Steuern",-300.00,Steuern

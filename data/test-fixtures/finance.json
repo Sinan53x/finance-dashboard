@@ -1,0 +1,312 @@
+{
+  "asOf": "2026-10-10",
+  "sources": {
+    "zkbStatement": "Test-Fixture (erfundene Buchungen)",
+    "zkbAssets": "Test-Fixture",
+    "ibkr": "Test-Fixture (Konto U00000000)",
+    "plan": "Test-Fixture",
+    "payslip": "Test-Fixture"
+  },
+  "privatkontoOpeningBalance": 1500,
+  "balancesAsOf": "2026-10-10",
+  "budgetStart": "2026-08-01",
+  "annualPayments": [
+    {
+      "category": "Gym",
+      "payee": "Fitnessstudio Aktiv",
+      "date": "2026-09-28",
+      "amount": 540,
+      "coversMonths": 12,
+      "note": "Jahresabo Fitnessstudio"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "privat",
+      "name": "Privatkonto",
+      "institution": "ZKB",
+      "iban": "CH00 0070 0000 0000 0000 1",
+      "type": "cash",
+      "balance": 218.85
+    },
+    {
+      "id": "notgroschen",
+      "name": "Sparkonto Notgroschen",
+      "institution": "ZKB",
+      "iban": "CH00 0070 0000 0000 0000 2",
+      "type": "savings",
+      "balance": 4406.8
+    },
+    {
+      "id": "steuern",
+      "name": "Sparkonto Steuern",
+      "institution": "ZKB",
+      "iban": "CH00 0070 0000 0000 0000 3",
+      "type": "savings",
+      "balance": 500
+    },
+    {
+      "id": "ibkr",
+      "name": "Interactive Brokers",
+      "institution": "IBKR",
+      "type": "brokerage",
+      "balance": 3120
+    }
+  ],
+  "ibkr": {
+    "accountId": "U00000000",
+    "baseCurrency": "CHF",
+    "netLiquidationChf": 3120,
+    "cashChf": 55,
+    "unrealizedPnlChf": 120,
+    "realizedPnlChf": 0,
+    "dividendsChf": 0,
+    "deposits": [
+      {
+        "date": "2026-08-28",
+        "amountChf": 1000
+      },
+      {
+        "date": "2026-09-28",
+        "amountChf": 1000
+      }
+    ],
+    "positions": [
+      {
+        "symbol": "VT",
+        "name": "Vanguard Total World Stock ETF",
+        "isin": "US9220427424",
+        "ter": 0.07,
+        "marketValueUsd": 3800,
+        "marketValueChf": 3065
+      }
+    ],
+    "valueHistory": [
+      {
+        "date": "2026-08-28",
+        "valueChf": 1010
+      },
+      {
+        "date": "2026-09-28",
+        "valueChf": 2060
+      },
+      {
+        "date": "2026-10-10",
+        "valueChf": 3120
+      }
+    ],
+    "valueHistoryNote": "Test-Fixture"
+  },
+  "income": {
+    "employer": "Muster AG",
+    "payday": 25,
+    "grossMonthly": 5800,
+    "deductions": [
+      {
+        "label": "AHV/IV/EO",
+        "rate": 0.053,
+        "amount": 307.4
+      },
+      {
+        "label": "ALV",
+        "rate": 0.011,
+        "amount": 63.8
+      },
+      {
+        "label": "Pensionskasse",
+        "rate": 0.07,
+        "amount": 406
+      },
+      {
+        "label": "NBU",
+        "rate": 0.008,
+        "amount": 46.4
+      },
+      {
+        "label": "KTG",
+        "rate": null,
+        "amount": 16.4
+      }
+    ],
+    "netMonthly": 4960,
+    "expensesAllowance": 0,
+    "payout": 4960,
+    "budgetBase": 4800
+  },
+  "budget": {
+    "groups": [
+      {
+        "id": "fix",
+        "label": "Fixkosten",
+        "categories": [
+          {
+            "name": "Miete",
+            "monthly": 1280
+          },
+          {
+            "name": "Krankenkasse",
+            "monthly": 385
+          }
+        ]
+      },
+      {
+        "id": "topf",
+        "label": "Töpfe (Sinking Funds)",
+        "categories": [
+          {
+            "name": "Steuern",
+            "monthly": 250,
+            "yearlyTarget": 3000,
+            "fundedBy": "steuern"
+          },
+          {
+            "name": "Gesundheit/Franchise",
+            "monthly": 90,
+            "yearlyTarget": 1080
+          },
+          {
+            "name": "ÖV/Mobilität",
+            "monthly": 110,
+            "yearlyTarget": 1320
+          },
+          {
+            "name": "Gym",
+            "monthly": 70,
+            "yearlyTarget": 840
+          },
+          {
+            "name": "Technik/Abos",
+            "monthly": 140,
+            "yearlyTarget": 1680
+          },
+          {
+            "name": "Reisen",
+            "monthly": 220,
+            "yearlyTarget": 2640
+          },
+          {
+            "name": "Jahreskosten/Diverses",
+            "monthly": 45,
+            "yearlyTarget": 540
+          }
+        ]
+      },
+      {
+        "id": "variabel",
+        "label": "Variabel",
+        "categories": [
+          {
+            "name": "Essen/Alltag",
+            "monthly": 300
+          },
+          {
+            "name": "Freizeit/Shopping",
+            "monthly": 180
+          },
+          {
+            "name": "Ausgehen",
+            "monthly": 150
+          },
+          {
+            "name": "Kleidung",
+            "monthly": 50
+          },
+          {
+            "name": "Bargeld",
+            "monthly": 100
+          },
+          {
+            "name": "Puffer",
+            "monthly": 50
+          }
+        ]
+      },
+      {
+        "id": "sparen",
+        "label": "Sparen & Investieren",
+        "categories": [
+          {
+            "name": "Notgroschen",
+            "monthly": 1200,
+            "fundedBy": "notgroschen"
+          },
+          {
+            "name": "ETF IBKR",
+            "monthly": 1000,
+            "fundedBy": "ibkr"
+          }
+        ]
+      }
+    ],
+    "nonBudget": {
+      "income": [
+        "Lohn",
+        "Rückerstattungen",
+        "Zinsen"
+      ],
+      "passThrough": [
+        "Spesen"
+      ],
+      "passThroughNote": "Spesen werden von der Muster AG erstattet."
+    },
+    "livingTotal": 3505,
+    "savingsTotal": 2200,
+    "targetSavingsRate": 0.38
+  },
+  "goals": [
+    {
+      "id": "notgroschen",
+      "label": "Notgroschen",
+      "target": 12000,
+      "current": 4406.8,
+      "monthly": 1200,
+      "targetDate": "2027-05-31"
+    },
+    {
+      "id": "steuern",
+      "label": "Steuertopf",
+      "target": 3000,
+      "current": 500,
+      "monthly": 250,
+      "targetDate": "2027-06-30"
+    }
+  ],
+  "plan": {
+    "phases": [
+      {
+        "id": "p1",
+        "label": "Phase 1",
+        "from": "2026-08",
+        "to": "2027-01",
+        "summary": "Notgroschen aufbauen, ETF-Sparplan CHF 1'000/Mt."
+      },
+      {
+        "id": "p2",
+        "label": "Phase 2",
+        "from": "2027-01",
+        "to": null,
+        "summary": "Sparplan erhöhen, Säule 3a starten."
+      }
+    ],
+    "pillar3a": {
+      "provider": "VIAC",
+      "strategy": "Global 100",
+      "start": "2027",
+      "yearlyMax2026": 7258,
+      "monthlyPlaceholder": 580,
+      "note": "Test-Fixture"
+    },
+    "etf": {
+      "symbol": "VT",
+      "isin": "US9220427424",
+      "broker": "Interactive Brokers",
+      "strategy": "100 % VT, monatlicher Sparplan",
+      "monthlyPhase1": 1000,
+      "monthlyPhase2": 1800
+    },
+    "freeMargin": 160
+  },
+  "todos": [
+    "Test-Fixture To-do"
+  ]
+}
